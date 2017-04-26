@@ -1,9 +1,8 @@
 $(call inherit-product, device/htc/m7/full_m7.mk)
 
-$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/xosp/config/xosp.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := xosp_m7
+PRODUCT_NAME := aosp_m7
 
 # Override build props
 PRODUCT_BUILD_PROP_OVERRIDES += \
